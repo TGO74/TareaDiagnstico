@@ -74,9 +74,9 @@ Este sistema de venta de vehículos permite a los clientes comprar automóviles,
 
 #### Métodos
 - Constructor(): Crea un nuevo carrito de compras vacío.
-- agregarVehículo(vehículo): Agrega un vehículo al carrito de compras.
-- eliminarVehículo(vehículo): Elimina un vehículo del carrito de compras.
-- calcularSubtotal(): Calcula el subtotal de la compra sumando el precio de todos los vehículos en el carrito.
+- agregarVehículoCarrito(vehículo): Agrega un vehículo al carrito de compras.
+- eliminarVehículoCarrito(vehículo): Elimina un vehículo del carrito de compras.
+- calcularSubtotalCarrito(): Calcula el subtotal de la compra sumando el precio de todos los vehículos en el carrito.
 
 # Clase Compra
 
@@ -85,7 +85,7 @@ Este sistema de venta de vehículos permite a los clientes comprar automóviles,
 - Lista de Vehículos: ArrayList<Vehículo>
 - Fecha de Compra: Date
 
-#### Métodos
+#### MétodosList
 - Constructor(cliente, listaVehículos, fecha): Crea una nueva compra con los atributos especificados.
 - getters y setters para todos los atributos.
 
@@ -96,7 +96,7 @@ Este sistema de venta de vehículos permite a los clientes comprar automóviles,
 
 #### Métodos
 - Constructor(): Crea una nueva tienda de vehículos con un catálogo vacío.
-- agregarVehículo(vehículo): Agrega un vehículo al catálogo de la tienda.
+- agregarVehículoCatalogo(vehículo): Agrega un vehículo al catálogo de la tienda.
 - buscarVehículosPorMarca(marca): Busca vehículos en el catálogo por marca.
 - buscarVehículosPorModelo(modelo): Busca vehículos en el catálogo por modelo.
 - buscarVehículosPorTipo(tipo): Busca vehículos en el catálogo por tipo.
